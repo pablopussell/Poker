@@ -10,6 +10,10 @@ public class Card {
 	public String rank() {
 		return cardValue.substring(0,cardValue.length()-1);
 	}
+	
+	public String suit() {
+		return cardValue.substring(cardValue.length()-1,cardValue.length());
+	}
 
 }
 
